@@ -1,0 +1,18 @@
+{
+  "collectionName": "components_elements_nav_promos",
+  "info": {
+    "name": "NavPromo",
+    "icon": "air-freshener"
+  },
+  "options": {},
+  "attributes": {
+    "column": {
+      "type": "integer"
+    },
+    "features": {
+      "type": "component",
+      "repeatable": false,
+      "component": "elements.feature-row"
+    }
+  }
+}

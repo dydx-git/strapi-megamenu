@@ -1,0 +1,26 @@
+{
+  "kind": "collectionType",
+  "collectionName": "parent_menu_items",
+  "info": {
+    "name": "Parent Menu Item",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "ItemName": {
+      "type": "string",
+      "required": true
+    },
+    "LayoutOrder": {
+      "type": "integer"
+    },
+    "navigation": {
+      "model": "navigation"
+    }
+  }
+}
